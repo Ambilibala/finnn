@@ -1,0 +1,2 @@
+symbol,name,price,changesPercentage,change,dayLow,dayHigh,yearHigh,yearLow,marketCap,priceAvg50,priceAvg200,exchange,volume,avgVolume,open,previousClose,eps,pe,earningsAnnouncement,sharesOutstanding,timestamp
+AAPL,Apple Inc.,239.07,1.58926,3.74,234.76,241.37,260.1,164.08,3591333447000,239.0744,226.8401,NASDAQ,45520263,51280910,235.105,235.33,6.97,34.3,2025-04-30T10:59:00.000+0000,15022100000,1741381202

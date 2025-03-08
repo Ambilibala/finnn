@@ -1,0 +1,443 @@
+2025-03-08 15:39:31,935 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 15:39:31,952 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 15:39:34,985 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.219.107:5000
+2025-03-08 15:39:34,985 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 15:39:36,135 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 15:39:48,189 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 15:39:48,197 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 15:39:48,261 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 15:39:48,285 - werkzeug - INFO -  * Debugger PIN: 459-199-424
+2025-03-08 15:40:20,510 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:40:20] "GET / HTTP/1.1" 200 -
+2025-03-08 15:40:20,766 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:40:20] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-03-08 15:40:20,793 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:40:20] "[33mGET /js/api-client.js HTTP/1.1[0m" 404 -
+2025-03-08 15:40:20,806 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:40:20] "[33mGET /js/ui-components.js HTTP/1.1[0m" 404 -
+2025-03-08 15:40:20,817 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:40:20] "[33mGET /js/app.js HTTP/1.1[0m" 404 -
+2025-03-08 15:40:21,234 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:40:21] "[33mGET /assets/favicon.ico HTTP/1.1[0m" 404 -
+2025-03-08 15:42:03,595 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:42:03] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-08 15:42:03,638 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:42:03] "[33mGET /js/api-client.js HTTP/1.1[0m" 404 -
+2025-03-08 15:42:03,638 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:42:03] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-03-08 15:42:03,662 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:42:03] "[33mGET /js/app.js HTTP/1.1[0m" 404 -
+2025-03-08 15:42:03,694 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:42:03] "[33mGET /js/ui-components.js HTTP/1.1[0m" 404 -
+2025-03-08 15:57:13,345 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 15:57:13,353 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 15:57:14,329 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.219.107:5000
+2025-03-08 15:57:14,337 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 15:57:14,345 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 15:57:17,936 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 15:57:17,938 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 15:57:17,986 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 15:57:18,018 - werkzeug - INFO -  * Debugger PIN: 459-199-424
+2025-03-08 15:58:51,969 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 15:58:51] "GET / HTTP/1.1" 200 -
+2025-03-08 15:58:52,099 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 15:58:52] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-03-08 15:58:52,123 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 15:58:52] "[33mGET /js/api-client.js HTTP/1.1[0m" 404 -
+2025-03-08 15:58:52,162 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 15:58:52] "[33mGET /js/app.js HTTP/1.1[0m" 404 -
+2025-03-08 15:58:52,211 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 15:58:52] "[33mGET /js/ui-components.js HTTP/1.1[0m" 404 -
+2025-03-08 15:58:52,502 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 15:58:52] "[33mGET /assets/favicon.ico HTTP/1.1[0m" 404 -
+2025-03-08 15:59:12,509 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:59:12] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-08 15:59:13,020 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:59:13] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-03-08 15:59:13,020 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:59:13] "[33mGET /js/ui-components.js HTTP/1.1[0m" 404 -
+2025-03-08 15:59:13,056 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:59:13] "[33mGET /js/api-client.js HTTP/1.1[0m" 404 -
+2025-03-08 15:59:13,088 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 15:59:13] "[33mGET /js/app.js HTTP/1.1[0m" 404 -
+2025-03-08 15:59:47,685 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 15:59:47] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-03-08 15:59:47,895 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 15:59:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-08 16:00:07,297 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:00:07] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:00:07,902 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:00:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-08 16:01:28,152 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:01:28] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:02:13,055 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:02:13] "[33mGET /api HTTP/1.1[0m" 404 -
+2025-03-08 16:02:50,618 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:02:50] "[33mGET /api HTTP/1.1[0m" 404 -
+2025-03-08 16:05:14,951 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:05:14] "GET / HTTP/1.1" 200 -
+2025-03-08 16:05:15,058 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:05:15] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-03-08 16:05:15,062 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:05:15] "[33mGET /js/api-client.js HTTP/1.1[0m" 404 -
+2025-03-08 16:05:15,901 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:05:15] "[33mGET /js/ui-components.js HTTP/1.1[0m" 404 -
+2025-03-08 16:05:15,948 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:05:15] "[33mGET /js/app.js HTTP/1.1[0m" 404 -
+2025-03-08 16:05:16,439 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:05:16] "[33mGET /assets/favicon.ico HTTP/1.1[0m" 404 -
+2025-03-08 16:12:08,705 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:12:08] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-03-08 16:18:47,184 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User\\Downloads\\finnnn\\backend\\app.py', reloading
+2025-03-08 16:18:49,274 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 16:18:55,747 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 16:18:55,756 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 16:18:55,844 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 16:18:55,884 - werkzeug - INFO -  * Debugger PIN: 459-199-424
+2025-03-08 16:19:09,070 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 16:19:09,078 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 16:19:10,312 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.219.107:5000
+2025-03-08 16:19:10,321 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 16:19:10,329 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 16:19:13,420 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 16:19:13,436 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 16:19:13,492 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 16:19:13,508 - werkzeug - INFO -  * Debugger PIN: 459-199-424
+2025-03-08 16:19:26,427 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:19:26] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-08 16:19:26,746 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:19:26] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-03-08 16:19:26,769 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:19:26] "[33mGET /js/api-client.js HTTP/1.1[0m" 404 -
+2025-03-08 16:19:26,791 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:19:26] "[33mGET /js/app.js HTTP/1.1[0m" 404 -
+2025-03-08 16:19:26,827 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:19:26] "[33mGET /js/ui-components.js HTTP/1.1[0m" 404 -
+2025-03-08 16:19:30,932 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:19:30] "[33mGET /js/api-client.js HTTP/1.1[0m" 404 -
+2025-03-08 16:19:31,021 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:19:31] "[33mGET /js/app.js HTTP/1.1[0m" 404 -
+2025-03-08 16:20:54,316 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:20:54] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:21:01,208 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:21:01] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:21:07,450 - financial_data_collector - INFO - Initializing FinancialDataCollector
+2025-03-08 16:21:07,514 - financial_data_collector - INFO - Created directory: financial_data
+2025-03-08 16:21:07,522 - financial_data_collector - INFO - Created directory: financial_data/prices
+2025-03-08 16:21:07,522 - financial_data_collector - INFO - Created directory: financial_data/historical
+2025-03-08 16:21:07,531 - financial_data_collector - INFO - Created directory: financial_data/company_news
+2025-03-08 16:21:07,538 - financial_data_collector - INFO - Created directory: financial_data/articles
+2025-03-08 16:21:07,538 - financial_data_collector - INFO - Created directory: financial_data/financials
+2025-03-08 16:21:07,545 - financial_data_collector - INFO - Fetching quotes for AAPL
+2025-03-08 16:21:11,327 - financial_data_collector - INFO - Saved quotes to financial_data/prices/quotes_2025-03-08_16-21-07.csv
+2025-03-08 16:21:11,346 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 16:21:14,219 - financial_data_collector - INFO - Saved FMP articles to financial_data/articles/fmp_articles_2025-03-08_16-21-11.csv
+2025-03-08 16:21:14,229 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 16:21:15,928 - financial_data_collector - INFO - Saved company news to financial_data/company_news/AAPL_news_2025-03-08_16-21-14.csv
+2025-03-08 16:21:15,935 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 16:21:18,294 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/AAPL_financials_2025-03-08.csv
+2025-03-08 16:21:18,318 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 16:21:21,430 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/AAPL_historical_2025-03-08.csv
+2025-03-08 16:21:21,430 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:21:21] "GET /api/test-data-collection HTTP/1.1" 200 -
+2025-03-08 16:26:10,043 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:26:10] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-03-08 16:27:21,460 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:27:21] "GET / HTTP/1.1" 200 -
+2025-03-08 16:27:21,563 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:27:21] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-03-08 16:27:21,595 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:27:21] "[33mGET /css/spinner.css HTTP/1.1[0m" 404 -
+2025-03-08 16:27:21,595 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:27:21] "[33mGET /js/api-client.js HTTP/1.1[0m" 404 -
+2025-03-08 16:27:21,684 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:27:21] "[33mGET /js/app.js HTTP/1.1[0m" 404 -
+2025-03-08 16:27:21,778 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:27:21] "[33mGET /js/ui-components.js HTTP/1.1[0m" 404 -
+2025-03-08 16:31:36,324 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:31:36] "GET / HTTP/1.1" 200 -
+2025-03-08 16:31:36,486 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:31:36] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-03-08 16:31:36,502 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:31:36] "[33mGET /js/api-client.js HTTP/1.1[0m" 404 -
+2025-03-08 16:31:36,502 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:31:36] "[33mGET /js/ui-components.js HTTP/1.1[0m" 404 -
+2025-03-08 16:31:36,517 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:31:36] "[33mGET /js/app.js HTTP/1.1[0m" 404 -
+2025-03-08 16:31:43,769 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:31:43] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+2025-03-08 16:56:26,780 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 16:56:26,799 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 16:56:28,206 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.219.107:5000
+2025-03-08 16:56:28,206 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 16:56:28,228 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 16:56:31,963 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 16:56:31,972 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 16:56:32,049 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 16:56:32,118 - werkzeug - INFO -  * Debugger PIN: 459-199-424
+2025-03-08 16:56:47,840 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:56:47] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-03-08 16:56:53,052 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:56:53] "GET / HTTP/1.1" 200 -
+2025-03-08 16:56:53,121 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:56:53] "GET /css/styles.css HTTP/1.1" 200 -
+2025-03-08 16:56:53,142 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:56:53] "GET /js/app.js HTTP/1.1" 200 -
+2025-03-08 16:56:53,150 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:56:53] "GET /js/ui-components.js HTTP/1.1" 200 -
+2025-03-08 16:56:53,165 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 16:56:53] "GET /js/api-client.js HTTP/1.1" 200 -
+2025-03-08 16:56:53,631 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:56:53] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:56:53,901 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:56:53] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:07,868 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:07] "OPTIONS /api/update-data HTTP/1.1" 200 -
+2025-03-08 16:57:08,132 - financial_data_collector - INFO - Initializing FinancialDataCollector
+2025-03-08 16:57:08,153 - financial_data_collector - INFO - Fetching quotes for AAPL,MSFT,GOOGL,AMZN,TSLA,META
+2025-03-08 16:57:10,547 - financial_data_collector - INFO - Saved quotes to financial_data/prices/quotes_2025-03-08_16-57-08.csv
+2025-03-08 16:57:10,564 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 16:57:11,116 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:11] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:11,382 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:11] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:12,948 - financial_data_collector - INFO - Saved FMP articles to financial_data/articles/fmp_articles_2025-03-08_16-57-10.csv
+2025-03-08 16:57:12,964 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 16:57:13,216 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:13] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:13,563 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:13] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:14,729 - financial_data_collector - INFO - Saved company news to financial_data/company_news/AAPL_news_2025-03-08_16-57-12.csv
+2025-03-08 16:57:14,735 - financial_data_collector - INFO - Fetching company news for MSFT from 2025-03-01 to 2025-03-08
+2025-03-08 16:57:15,118 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:15] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:15,446 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:15] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:16,623 - financial_data_collector - INFO - Saved company news to financial_data/company_news/MSFT_news_2025-03-08_16-57-14.csv
+2025-03-08 16:57:16,630 - financial_data_collector - INFO - Fetching company news for GOOGL from 2025-03-01 to 2025-03-08
+2025-03-08 16:57:16,933 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:16] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:17,247 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:17] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:18,247 - financial_data_collector - INFO - Saved company news to financial_data/company_news/GOOGL_news_2025-03-08_16-57-16.csv
+2025-03-08 16:57:18,262 - financial_data_collector - INFO - Fetching company news for AMZN from 2025-03-01 to 2025-03-08
+2025-03-08 16:57:18,479 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:18] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:18,814 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:18] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:19,980 - financial_data_collector - INFO - Saved company news to financial_data/company_news/AMZN_news_2025-03-08_16-57-18.csv
+2025-03-08 16:57:19,997 - financial_data_collector - INFO - Fetching company news for TSLA from 2025-03-01 to 2025-03-08
+2025-03-08 16:57:20,232 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:20] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:20,579 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:20] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:21,928 - financial_data_collector - INFO - Saved company news to financial_data/company_news/TSLA_news_2025-03-08_16-57-19.csv
+2025-03-08 16:57:21,949 - financial_data_collector - INFO - Fetching company news for META from 2025-03-01 to 2025-03-08
+2025-03-08 16:57:22,197 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:22] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:22,528 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:22] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:23,531 - financial_data_collector - INFO - Saved company news to financial_data/company_news/META_news_2025-03-08_16-57-21.csv
+2025-03-08 16:57:23,553 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 16:57:24,495 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:24] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:24,746 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:24] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:25,630 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/AAPL_financials_2025-03-08.csv
+2025-03-08 16:57:25,646 - financial_data_collector - INFO - Fetching basic financials for MSFT
+2025-03-08 16:57:25,844 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:25] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:26,178 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:26] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:27,527 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/MSFT_financials_2025-03-08.csv
+2025-03-08 16:57:27,545 - financial_data_collector - INFO - Fetching basic financials for GOOGL
+2025-03-08 16:57:27,777 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:27] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:28,111 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:28] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:29,228 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/GOOGL_financials_2025-03-08.csv
+2025-03-08 16:57:29,228 - financial_data_collector - INFO - Fetching basic financials for AMZN
+2025-03-08 16:57:29,727 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:29] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:29,995 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:29] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:31,078 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/AMZN_financials_2025-03-08.csv
+2025-03-08 16:57:31,094 - financial_data_collector - INFO - Fetching basic financials for TSLA
+2025-03-08 16:57:31,380 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:31] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:31,760 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:31] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:33,080 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/TSLA_financials_2025-03-08.csv
+2025-03-08 16:57:33,100 - financial_data_collector - INFO - Fetching basic financials for META
+2025-03-08 16:57:33,316 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:33] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:33,644 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:33] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:34,810 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/META_financials_2025-03-08.csv
+2025-03-08 16:57:34,810 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 16:57:35,009 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:35] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:35,327 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:35] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:37,675 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/AAPL_historical_2025-03-08.csv
+2025-03-08 16:57:37,692 - financial_data_collector - INFO - Fetching historical prices for MSFT
+2025-03-08 16:57:37,844 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:37] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:38,160 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:38] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:41,570 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/MSFT_historical_2025-03-08.csv
+2025-03-08 16:57:41,586 - financial_data_collector - INFO - Fetching historical prices for GOOGL
+2025-03-08 16:57:42,099 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:42] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:42,362 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:42] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:44,317 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/GOOGL_historical_2025-03-08.csv
+2025-03-08 16:57:44,317 - financial_data_collector - INFO - Fetching historical prices for AMZN
+2025-03-08 16:57:44,808 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:44] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:45,055 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:45] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:46,959 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/AMZN_historical_2025-03-08.csv
+2025-03-08 16:57:46,978 - financial_data_collector - INFO - Fetching historical prices for TSLA
+2025-03-08 16:57:47,156 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:47] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:47,492 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:47] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:49,646 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/TSLA_historical_2025-03-08.csv
+2025-03-08 16:57:49,646 - financial_data_collector - INFO - Fetching historical prices for META
+2025-03-08 16:57:49,864 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:49] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:50,222 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:50] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:57:52,503 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/META_historical_2025-03-08.csv
+2025-03-08 16:57:52,519 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:52] "POST /api/update-data HTTP/1.1" 200 -
+2025-03-08 16:57:52,713 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:52] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 16:57:53,034 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:57:53] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 16:58:05,220 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:58:05] "OPTIONS /api/query HTTP/1.1" 200 -
+2025-03-08 16:58:05,487 - __main__ - INFO - Processing query: 'What is the current price of Amazon stock?' for symbols: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'META']
+2025-03-08 16:58:05,487 - financial_data_collector - INFO - Processing question: What is the current price of Amazon stock?
+2025-03-08 16:58:05,920 - financial_data_collector - INFO - Querying AI with context data
+2025-03-08 16:58:15,685 - __main__ - INFO - Query processed successfully
+2025-03-08 16:58:15,685 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:58:15] "POST /api/query HTTP/1.1" 200 -
+2025-03-08 16:58:41,930 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:58:41] "OPTIONS /api/query HTTP/1.1" 200 -
+2025-03-08 16:58:42,196 - __main__ - INFO - Processing query: 'How is Apple performing today?' for symbols: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'META']
+2025-03-08 16:58:42,196 - financial_data_collector - INFO - Processing question: How is Apple performing today?
+2025-03-08 16:58:42,224 - financial_data_collector - INFO - Querying AI with context data
+2025-03-08 16:58:47,145 - __main__ - INFO - Query processed successfully
+2025-03-08 16:58:47,160 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:58:47] "POST /api/query HTTP/1.1" 200 -
+2025-03-08 16:58:57,527 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:58:57] "OPTIONS /api/query HTTP/1.1" 200 -
+2025-03-08 16:58:57,793 - __main__ - INFO - Processing query: 'how are you' for symbols: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'META']
+2025-03-08 16:58:57,793 - financial_data_collector - INFO - Processing question: how are you
+2025-03-08 16:58:57,810 - financial_data_collector - INFO - Querying AI with context data
+2025-03-08 16:59:13,726 - __main__ - INFO - Query processed successfully
+2025-03-08 16:59:13,726 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 16:59:13] "POST /api/query HTTP/1.1" 200 -
+2025-03-08 17:00:24,990 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User\\Downloads\\finnnn\\backend\\app.py', reloading
+2025-03-08 17:00:27,974 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 17:00:35,702 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 17:00:35,702 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 17:00:35,772 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 17:00:35,793 - werkzeug - INFO -  * Debugger PIN: 459-199-424
+2025-03-08 17:03:11,575 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:03:11] "OPTIONS /api/query HTTP/1.1" 200 -
+2025-03-08 17:03:11,841 - __main__ - INFO - Processing query: 'What's the latest news for Tesla?' for symbols: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'META']
+2025-03-08 17:03:11,841 - financial_data_collector - INFO - Processing question: What's the latest news for Tesla?
+2025-03-08 17:03:12,441 - financial_data_collector - INFO - Querying AI with context data
+2025-03-08 17:03:16,575 - __main__ - INFO - Query processed successfully
+2025-03-08 17:03:16,575 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:03:16] "POST /api/query HTTP/1.1" 200 -
+2025-03-08 17:03:36,971 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:03:36] "OPTIONS /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:03:37,235 - financial_data_collector - INFO - Initializing FinancialDataCollector
+2025-03-08 17:03:37,251 - financial_data_collector - INFO - Fetching quotes for AAPL,MSFT,GOOGL,AMZN,TSLA,META,V,MA
+2025-03-08 17:03:39,903 - financial_data_collector - INFO - Saved quotes to financial_data/prices/quotes_2025-03-08_17-03-37.csv
+2025-03-08 17:03:39,903 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:03:42,569 - financial_data_collector - INFO - Saved FMP articles to financial_data/articles/fmp_articles_2025-03-08_17-03-39.csv
+2025-03-08 17:03:42,585 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 17:03:44,186 - financial_data_collector - INFO - Saved company news to financial_data/company_news/AAPL_news_2025-03-08_17-03-42.csv
+2025-03-08 17:03:44,196 - financial_data_collector - INFO - Fetching company news for MSFT from 2025-03-01 to 2025-03-08
+2025-03-08 17:03:45,650 - financial_data_collector - INFO - Saved company news to financial_data/company_news/MSFT_news_2025-03-08_17-03-44.csv
+2025-03-08 17:03:45,652 - financial_data_collector - INFO - Fetching company news for GOOGL from 2025-03-01 to 2025-03-08
+2025-03-08 17:03:47,285 - financial_data_collector - INFO - Saved company news to financial_data/company_news/GOOGL_news_2025-03-08_17-03-45.csv
+2025-03-08 17:03:47,301 - financial_data_collector - INFO - Fetching company news for AMZN from 2025-03-01 to 2025-03-08
+2025-03-08 17:03:48,867 - financial_data_collector - INFO - Saved company news to financial_data/company_news/AMZN_news_2025-03-08_17-03-47.csv
+2025-03-08 17:03:48,885 - financial_data_collector - INFO - Fetching company news for TSLA from 2025-03-01 to 2025-03-08
+2025-03-08 17:03:50,281 - financial_data_collector - INFO - Saved company news to financial_data/company_news/TSLA_news_2025-03-08_17-03-48.csv
+2025-03-08 17:03:50,289 - financial_data_collector - INFO - Fetching company news for META from 2025-03-01 to 2025-03-08
+2025-03-08 17:03:51,751 - financial_data_collector - INFO - Saved company news to financial_data/company_news/META_news_2025-03-08_17-03-50.csv
+2025-03-08 17:03:51,769 - financial_data_collector - INFO - Fetching company news for V from 2025-03-01 to 2025-03-08
+2025-03-08 17:03:53,181 - financial_data_collector - INFO - Saved company news to financial_data/company_news/V_news_2025-03-08_17-03-51.csv
+2025-03-08 17:03:53,189 - financial_data_collector - INFO - Fetching company news for MA from 2025-03-01 to 2025-03-08
+2025-03-08 17:03:54,715 - financial_data_collector - INFO - Saved company news to financial_data/company_news/MA_news_2025-03-08_17-03-53.csv
+2025-03-08 17:03:54,732 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 17:03:56,291 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/AAPL_financials_2025-03-08.csv
+2025-03-08 17:03:56,299 - financial_data_collector - INFO - Fetching basic financials for MSFT
+2025-03-08 17:03:58,207 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/MSFT_financials_2025-03-08.csv
+2025-03-08 17:03:58,225 - financial_data_collector - INFO - Fetching basic financials for GOOGL
+2025-03-08 17:03:59,918 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/GOOGL_financials_2025-03-08.csv
+2025-03-08 17:03:59,918 - financial_data_collector - INFO - Fetching basic financials for AMZN
+2025-03-08 17:04:01,801 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/AMZN_financials_2025-03-08.csv
+2025-03-08 17:04:01,814 - financial_data_collector - INFO - Fetching basic financials for TSLA
+2025-03-08 17:04:03,332 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/TSLA_financials_2025-03-08.csv
+2025-03-08 17:04:03,332 - financial_data_collector - INFO - Fetching basic financials for META
+2025-03-08 17:04:05,031 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/META_financials_2025-03-08.csv
+2025-03-08 17:04:05,049 - financial_data_collector - INFO - Fetching basic financials for V
+2025-03-08 17:04:06,880 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/V_financials_2025-03-08.csv
+2025-03-08 17:04:06,897 - financial_data_collector - INFO - Fetching basic financials for MA
+2025-03-08 17:04:08,747 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/MA_financials_2025-03-08.csv
+2025-03-08 17:04:08,747 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 17:04:11,895 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/AAPL_historical_2025-03-08.csv
+2025-03-08 17:04:11,895 - financial_data_collector - INFO - Fetching historical prices for MSFT
+2025-03-08 17:04:14,979 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/MSFT_historical_2025-03-08.csv
+2025-03-08 17:04:15,009 - financial_data_collector - INFO - Fetching historical prices for GOOGL
+2025-03-08 17:04:17,795 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/GOOGL_historical_2025-03-08.csv
+2025-03-08 17:04:17,811 - financial_data_collector - INFO - Fetching historical prices for AMZN
+2025-03-08 17:04:20,911 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/AMZN_historical_2025-03-08.csv
+2025-03-08 17:04:20,911 - financial_data_collector - INFO - Fetching historical prices for TSLA
+2025-03-08 17:04:23,826 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/TSLA_historical_2025-03-08.csv
+2025-03-08 17:04:23,843 - financial_data_collector - INFO - Fetching historical prices for META
+2025-03-08 17:04:26,627 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/META_historical_2025-03-08.csv
+2025-03-08 17:04:26,634 - financial_data_collector - INFO - Fetching historical prices for V
+2025-03-08 17:04:29,809 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/V_historical_2025-03-08.csv
+2025-03-08 17:04:29,809 - financial_data_collector - INFO - Fetching historical prices for MA
+2025-03-08 17:04:33,124 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/MA_historical_2025-03-08.csv
+2025-03-08 17:04:33,137 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:04:33] "POST /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:06:37,904 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:06:37] "OPTIONS /api/query HTTP/1.1" 200 -
+2025-03-08 17:06:38,156 - __main__ - INFO - Processing query: 'Compare Microsoft and Google stocks' for symbols: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'META', 'V', 'MA']
+2025-03-08 17:06:38,156 - financial_data_collector - INFO - Processing question: Compare Microsoft and Google stocks
+2025-03-08 17:06:38,156 - financial_data_collector - INFO - Collecting fresh data for symbols: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'META', 'V', 'MA']
+2025-03-08 17:06:38,167 - financial_data_collector - INFO - Fetching quotes for AAPL,MSFT,GOOGL,AMZN,TSLA,META,V,MA
+2025-03-08 17:06:40,166 - financial_data_collector - INFO - Saved quotes to financial_data/prices/quotes_2025-03-08_17-06-38.csv
+2025-03-08 17:06:40,184 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:06:42,601 - financial_data_collector - INFO - Saved FMP articles to financial_data/articles/fmp_articles_2025-03-08_17-06-40.csv
+2025-03-08 17:06:42,601 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 17:06:44,415 - financial_data_collector - INFO - Saved company news to financial_data/company_news/AAPL_news_2025-03-08_17-06-42.csv
+2025-03-08 17:06:44,431 - financial_data_collector - INFO - Fetching company news for MSFT from 2025-03-01 to 2025-03-08
+2025-03-08 17:06:46,064 - financial_data_collector - INFO - Saved company news to financial_data/company_news/MSFT_news_2025-03-08_17-06-44.csv
+2025-03-08 17:06:46,064 - financial_data_collector - INFO - Fetching company news for GOOGL from 2025-03-01 to 2025-03-08
+2025-03-08 17:06:47,797 - financial_data_collector - INFO - Saved company news to financial_data/company_news/GOOGL_news_2025-03-08_17-06-46.csv
+2025-03-08 17:06:47,798 - financial_data_collector - INFO - Fetching company news for AMZN from 2025-03-01 to 2025-03-08
+2025-03-08 17:06:49,464 - financial_data_collector - INFO - Saved company news to financial_data/company_news/AMZN_news_2025-03-08_17-06-47.csv
+2025-03-08 17:06:49,481 - financial_data_collector - INFO - Fetching company news for TSLA from 2025-03-01 to 2025-03-08
+2025-03-08 17:06:51,281 - financial_data_collector - INFO - Saved company news to financial_data/company_news/TSLA_news_2025-03-08_17-06-49.csv
+2025-03-08 17:06:51,281 - financial_data_collector - INFO - Fetching company news for META from 2025-03-01 to 2025-03-08
+2025-03-08 17:06:52,914 - financial_data_collector - INFO - Saved company news to financial_data/company_news/META_news_2025-03-08_17-06-51.csv
+2025-03-08 17:06:52,930 - financial_data_collector - INFO - Fetching company news for V from 2025-03-01 to 2025-03-08
+2025-03-08 17:06:54,564 - financial_data_collector - INFO - Saved company news to financial_data/company_news/V_news_2025-03-08_17-06-52.csv
+2025-03-08 17:06:54,597 - financial_data_collector - INFO - Fetching company news for MA from 2025-03-01 to 2025-03-08
+2025-03-08 17:06:56,124 - financial_data_collector - INFO - Saved company news to financial_data/company_news/MA_news_2025-03-08_17-06-54.csv
+2025-03-08 17:06:56,143 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 17:06:58,297 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/AAPL_financials_2025-03-08.csv
+2025-03-08 17:06:58,297 - financial_data_collector - INFO - Fetching basic financials for MSFT
+2025-03-08 17:07:01,129 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/MSFT_financials_2025-03-08.csv
+2025-03-08 17:07:01,152 - financial_data_collector - INFO - Fetching basic financials for GOOGL
+2025-03-08 17:07:02,995 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/GOOGL_financials_2025-03-08.csv
+2025-03-08 17:07:03,013 - financial_data_collector - INFO - Fetching basic financials for AMZN
+2025-03-08 17:07:04,844 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/AMZN_financials_2025-03-08.csv
+2025-03-08 17:07:04,860 - financial_data_collector - INFO - Fetching basic financials for TSLA
+2025-03-08 17:07:06,694 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/TSLA_financials_2025-03-08.csv
+2025-03-08 17:07:06,694 - financial_data_collector - INFO - Fetching basic financials for META
+2025-03-08 17:07:08,443 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/META_financials_2025-03-08.csv
+2025-03-08 17:07:08,443 - financial_data_collector - INFO - Fetching basic financials for V
+2025-03-08 17:07:10,026 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/V_financials_2025-03-08.csv
+2025-03-08 17:07:10,044 - financial_data_collector - INFO - Fetching basic financials for MA
+2025-03-08 17:07:11,910 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/MA_financials_2025-03-08.csv
+2025-03-08 17:07:11,910 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 17:07:14,808 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/AAPL_historical_2025-03-08.csv
+2025-03-08 17:07:14,808 - financial_data_collector - INFO - Fetching historical prices for MSFT
+2025-03-08 17:07:17,862 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/MSFT_historical_2025-03-08.csv
+2025-03-08 17:07:17,878 - financial_data_collector - INFO - Fetching historical prices for GOOGL
+2025-03-08 17:07:20,753 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/GOOGL_historical_2025-03-08.csv
+2025-03-08 17:07:20,753 - financial_data_collector - INFO - Fetching historical prices for AMZN
+2025-03-08 17:07:23,523 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/AMZN_historical_2025-03-08.csv
+2025-03-08 17:07:23,523 - financial_data_collector - INFO - Fetching historical prices for TSLA
+2025-03-08 17:07:26,523 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/TSLA_historical_2025-03-08.csv
+2025-03-08 17:07:26,523 - financial_data_collector - INFO - Fetching historical prices for META
+2025-03-08 17:07:29,489 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/META_historical_2025-03-08.csv
+2025-03-08 17:07:29,489 - financial_data_collector - INFO - Fetching historical prices for V
+2025-03-08 17:07:32,222 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/V_historical_2025-03-08.csv
+2025-03-08 17:07:32,222 - financial_data_collector - INFO - Fetching historical prices for MA
+2025-03-08 17:07:34,971 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/MA_historical_2025-03-08.csv
+2025-03-08 17:07:35,092 - financial_data_collector - INFO - Querying AI with context data
+2025-03-08 17:07:48,751 - __main__ - INFO - Query processed successfully
+2025-03-08 17:07:48,751 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:07:48] "POST /api/query HTTP/1.1" 200 -
+2025-03-08 17:08:20,644 - werkzeug - INFO -  * Detected change in 'C:\\Users\\User\\Downloads\\finnnn\\backend\\app.py', reloading
+2025-03-08 17:08:23,095 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 17:08:26,360 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 17:08:26,360 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 17:08:26,415 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 17:08:26,431 - werkzeug - INFO -  * Debugger PIN: 459-199-424
+2025-03-08 17:08:34,710 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 17:08:34] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-08 17:08:34,793 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 17:08:34] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-03-08 17:08:34,812 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 17:08:34] "[36mGET /js/api-client.js HTTP/1.1[0m" 304 -
+2025-03-08 17:08:34,820 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 17:08:34] "[36mGET /js/app.js HTTP/1.1[0m" 304 -
+2025-03-08 17:08:34,826 - werkzeug - INFO - 192.168.219.107 - - [08/Mar/2025 17:08:34] "[36mGET /js/ui-components.js HTTP/1.1[0m" 304 -
+2025-03-08 17:08:35,262 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:08:35] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 17:08:35,501 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:08:35] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 17:09:20,885 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:09:20] "OPTIONS /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:09:21,135 - financial_data_collector - INFO - Initializing FinancialDataCollector
+2025-03-08 17:09:21,135 - financial_data_collector - INFO - Fetching quotes for GOOGL,AMZN
+2025-03-08 17:09:23,433 - financial_data_collector - INFO - Saved quotes to financial_data/prices/quotes_2025-03-08_17-09-21.csv
+2025-03-08 17:09:23,449 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:09:25,799 - financial_data_collector - INFO - Saved FMP articles to financial_data/articles/fmp_articles_2025-03-08_17-09-23.csv
+2025-03-08 17:09:25,799 - financial_data_collector - INFO - Fetching company news for GOOGL from 2025-03-01 to 2025-03-08
+2025-03-08 17:09:27,398 - financial_data_collector - INFO - Saved company news to financial_data/company_news/GOOGL_news_2025-03-08_17-09-25.csv
+2025-03-08 17:09:27,431 - financial_data_collector - INFO - Fetching company news for AMZN from 2025-03-01 to 2025-03-08
+2025-03-08 17:09:29,064 - financial_data_collector - INFO - Saved company news to financial_data/company_news/AMZN_news_2025-03-08_17-09-27.csv
+2025-03-08 17:09:29,064 - financial_data_collector - INFO - Fetching basic financials for GOOGL
+2025-03-08 17:09:30,714 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/GOOGL_financials_2025-03-08.csv
+2025-03-08 17:09:30,714 - financial_data_collector - INFO - Fetching basic financials for AMZN
+2025-03-08 17:09:32,817 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/AMZN_financials_2025-03-08.csv
+2025-03-08 17:09:32,830 - financial_data_collector - INFO - Fetching historical prices for GOOGL
+2025-03-08 17:09:35,614 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/GOOGL_historical_2025-03-08.csv
+2025-03-08 17:09:35,630 - financial_data_collector - INFO - Fetching historical prices for AMZN
+2025-03-08 17:09:38,313 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/AMZN_historical_2025-03-08.csv
+2025-03-08 17:09:38,332 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:09:38] "POST /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:09:46,812 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:09:46] "OPTIONS /api/query HTTP/1.1" 200 -
+2025-03-08 17:09:47,079 - __main__ - INFO - Processing query: 'What is the current price of Amazon stock?' for symbols: ['GOOGL', 'AMZN']
+2025-03-08 17:09:47,079 - financial_data_collector - INFO - Processing question: What is the current price of Amazon stock?
+2025-03-08 17:09:47,079 - financial_data_collector - INFO - Collecting fresh data for symbols: ['GOOGL', 'AMZN']
+2025-03-08 17:09:47,079 - financial_data_collector - INFO - Fetching quotes for GOOGL,AMZN
+2025-03-08 17:09:49,228 - financial_data_collector - INFO - Saved quotes to financial_data/prices/quotes_2025-03-08_17-09-47.csv
+2025-03-08 17:09:49,228 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:09:51,578 - financial_data_collector - INFO - Saved FMP articles to financial_data/articles/fmp_articles_2025-03-08_17-09-49.csv
+2025-03-08 17:09:51,594 - financial_data_collector - INFO - Fetching company news for GOOGL from 2025-03-01 to 2025-03-08
+2025-03-08 17:09:53,244 - financial_data_collector - INFO - Saved company news to financial_data/company_news/GOOGL_news_2025-03-08_17-09-51.csv
+2025-03-08 17:09:53,257 - financial_data_collector - INFO - Fetching company news for AMZN from 2025-03-01 to 2025-03-08
+2025-03-08 17:09:55,079 - financial_data_collector - INFO - Saved company news to financial_data/company_news/AMZN_news_2025-03-08_17-09-53.csv
+2025-03-08 17:09:55,093 - financial_data_collector - INFO - Fetching basic financials for GOOGL
+2025-03-08 17:09:57,326 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/GOOGL_financials_2025-03-08.csv
+2025-03-08 17:09:57,326 - financial_data_collector - INFO - Fetching basic financials for AMZN
+2025-03-08 17:09:58,926 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/AMZN_financials_2025-03-08.csv
+2025-03-08 17:09:58,952 - financial_data_collector - INFO - Fetching historical prices for GOOGL
+2025-03-08 17:10:01,875 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/GOOGL_historical_2025-03-08.csv
+2025-03-08 17:10:01,875 - financial_data_collector - INFO - Fetching historical prices for AMZN
+2025-03-08 17:10:04,692 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/AMZN_historical_2025-03-08.csv
+2025-03-08 17:10:04,761 - financial_data_collector - INFO - Querying AI with context data
+2025-03-08 17:10:12,624 - __main__ - INFO - Query processed successfully
+2025-03-08 17:10:12,624 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:10:12] "POST /api/query HTTP/1.1" 200 -
+2025-03-08 17:10:34,654 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:10:34] "OPTIONS /api/query HTTP/1.1" 200 -
+2025-03-08 17:10:34,917 - __main__ - INFO - Processing query: 'is it desirable to invest in amazone?' for symbols: ['GOOGL', 'AMZN']
+2025-03-08 17:10:34,917 - financial_data_collector - INFO - Processing question: is it desirable to invest in amazone?
+2025-03-08 17:10:34,917 - financial_data_collector - INFO - Collecting fresh data for symbols: ['GOOGL', 'AMZN']
+2025-03-08 17:10:34,917 - financial_data_collector - INFO - Fetching quotes for GOOGL,AMZN
+2025-03-08 17:10:36,984 - financial_data_collector - INFO - Saved quotes to financial_data/prices/quotes_2025-03-08_17-10-34.csv
+2025-03-08 17:10:36,999 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:10:39,583 - financial_data_collector - INFO - Saved FMP articles to financial_data/articles/fmp_articles_2025-03-08_17-10-36.csv
+2025-03-08 17:10:39,583 - financial_data_collector - INFO - Fetching company news for GOOGL from 2025-03-01 to 2025-03-08
+2025-03-08 17:10:41,215 - financial_data_collector - INFO - Saved company news to financial_data/company_news/GOOGL_news_2025-03-08_17-10-39.csv
+2025-03-08 17:10:41,215 - financial_data_collector - INFO - Fetching company news for AMZN from 2025-03-01 to 2025-03-08
+2025-03-08 17:10:42,883 - financial_data_collector - INFO - Saved company news to financial_data/company_news/AMZN_news_2025-03-08_17-10-41.csv
+2025-03-08 17:10:42,899 - financial_data_collector - INFO - Fetching basic financials for GOOGL
+2025-03-08 17:10:45,063 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/GOOGL_financials_2025-03-08.csv
+2025-03-08 17:10:45,078 - financial_data_collector - INFO - Fetching basic financials for AMZN
+2025-03-08 17:10:47,134 - financial_data_collector - INFO - Saved basic financials to financial_data/financials/AMZN_financials_2025-03-08.csv
+2025-03-08 17:10:47,134 - financial_data_collector - INFO - Fetching historical prices for GOOGL
+2025-03-08 17:10:49,881 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/GOOGL_historical_2025-03-08.csv
+2025-03-08 17:10:49,898 - financial_data_collector - INFO - Fetching historical prices for AMZN
+2025-03-08 17:10:52,712 - financial_data_collector - INFO - Saved historical prices to financial_data/historical/AMZN_historical_2025-03-08.csv
+2025-03-08 17:10:52,728 - financial_data_collector - INFO - Querying AI with context data
+2025-03-08 17:11:05,960 - __main__ - INFO - Query processed successfully
+2025-03-08 17:11:05,976 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:11:05] "POST /api/query HTTP/1.1" 200 -
