@@ -441,3 +441,249 @@
 2025-03-08 17:10:52,728 - financial_data_collector - INFO - Querying AI with context data
 2025-03-08 17:11:05,960 - __main__ - INFO - Query processed successfully
 2025-03-08 17:11:05,976 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:11:05] "POST /api/query HTTP/1.1" 200 -
+2025-03-08 17:36:37,232 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 17:36:37,232 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 17:36:38,325 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.95.243.170:5000
+2025-03-08 17:36:38,325 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 17:36:38,331 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 17:36:43,583 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 17:36:43,602 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 17:36:43,693 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 17:36:43,745 - werkzeug - INFO -  * Debugger PIN: 459-199-424
+2025-03-08 17:38:58,010 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:38:58] "GET / HTTP/1.1" 200 -
+2025-03-08 17:38:58,119 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:38:58] "GET /css/styles.css HTTP/1.1" 200 -
+2025-03-08 17:38:58,299 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:38:58] "GET /js/app.js HTTP/1.1" 200 -
+2025-03-08 17:38:58,300 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:38:58] "GET /js/ui-components.js HTTP/1.1" 200 -
+2025-03-08 17:38:58,305 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:38:58] "GET /js/api-client.js HTTP/1.1" 200 -
+2025-03-08 17:38:58,991 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:38:58] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 17:38:59,245 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:38:59] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 17:39:31,309 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:39:31] "OPTIONS /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:39:31,550 - financial_data_collector - INFO - Initializing FinancialDataCollector
+2025-03-08 17:39:31,584 - financial_data_collector - INFO - Fetching quotes for AAPL,MSFT,GOOGL
+2025-03-08 17:39:43,731 - financial_data_collector - ERROR - Connection error while fetching quotes
+2025-03-08 17:39:43,731 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:39:43,731 - financial_data_collector - ERROR - Exception while fetching FMP articles: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/fmp/articles?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9&limit=50 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F1BE10>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:39:43,731 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 17:39:43,750 - financial_data_collector - ERROR - Exception while fetching company news for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672ED1350>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:39:43,750 - financial_data_collector - INFO - Fetching company news for MSFT from 2025-03-01 to 2025-03-08
+2025-03-08 17:39:43,767 - financial_data_collector - ERROR - Exception while fetching company news for MSFT: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=MSFT&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F19C10>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:39:43,767 - financial_data_collector - INFO - Fetching company news for GOOGL from 2025-03-01 to 2025-03-08
+2025-03-08 17:39:43,783 - financial_data_collector - ERROR - Exception while fetching company news for GOOGL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=GOOGL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F28E90>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:39:43,783 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 17:39:43,798 - financial_data_collector - ERROR - Exception while fetching basic financials for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=AAPL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F2AE50>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:39:43,800 - financial_data_collector - INFO - Fetching basic financials for MSFT
+2025-03-08 17:39:43,805 - financial_data_collector - ERROR - Exception while fetching basic financials for MSFT: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=MSFT&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F30ED0>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:39:43,805 - financial_data_collector - INFO - Fetching basic financials for GOOGL
+2025-03-08 17:39:43,817 - financial_data_collector - ERROR - Exception while fetching basic financials for GOOGL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=GOOGL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F2B990>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:39:43,820 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 17:39:43,825 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/AAPL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F29A90>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:39:43,833 - financial_data_collector - INFO - Fetching historical prices for MSFT
+2025-03-08 17:39:43,838 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/MSFT?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F28BD0>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:39:43,838 - financial_data_collector - INFO - Fetching historical prices for GOOGL
+2025-03-08 17:39:43,848 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/GOOGL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672ED1350>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:39:43,848 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:39:43] "POST /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:39:54,362 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:39:54] "OPTIONS /api/query HTTP/1.1" 200 -
+2025-03-08 17:39:54,617 - __main__ - INFO - Processing query: 'What is the current price of Amazon stock?' for symbols: ['AAPL', 'MSFT', 'GOOGL']
+2025-03-08 17:39:54,617 - financial_data_collector - INFO - Processing question: What is the current price of Amazon stock?
+2025-03-08 17:39:54,617 - financial_data_collector - INFO - Collecting fresh data for symbols: ['AAPL', 'MSFT', 'GOOGL']
+2025-03-08 17:39:54,631 - financial_data_collector - INFO - Fetching quotes for AAPL,MSFT,GOOGL
+2025-03-08 17:41:10,331 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:41:10] "OPTIONS /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:41:10,642 - financial_data_collector - INFO - Fetching quotes for AAPL,MSFT,GOOGL,AMZN
+2025-03-08 17:42:01,154 - financial_data_collector - ERROR - Request timed out while fetching quotes
+2025-03-08 17:42:01,154 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:43:16,923 - financial_data_collector - ERROR - Request timed out while fetching quotes
+2025-03-08 17:43:16,923 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:44:07,396 - financial_data_collector - ERROR - Exception while fetching FMP articles: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/fmp/articles?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9&limit=50 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672F2BB90>, 'Connection to financialmodelingprep.com timed out. (connect timeout=30)'))
+2025-03-08 17:44:07,430 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 17:44:49,319 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:44:49] "OPTIONS /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:44:49,629 - financial_data_collector - INFO - Fetching quotes for AAPL
+2025-03-08 17:45:23,194 - financial_data_collector - ERROR - Exception while fetching FMP articles: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/fmp/articles?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9&limit=50 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672F2A190>, 'Connection to financialmodelingprep.com timed out. (connect timeout=30)'))
+2025-03-08 17:45:23,194 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 17:46:03,737 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:46:03] "OPTIONS /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:46:04,055 - financial_data_collector - INFO - Fetching quotes for AAPL
+2025-03-08 17:46:34,746 - financial_data_collector - ERROR - Exception while fetching company news for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672F3DD10>, 'Connection to finnhub.io timed out. (connect timeout=30)'))
+2025-03-08 17:46:34,748 - financial_data_collector - INFO - Fetching company news for MSFT from 2025-03-01 to 2025-03-08
+2025-03-08 17:46:55,959 - financial_data_collector - ERROR - Request timed out while fetching quotes
+2025-03-08 17:46:55,960 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:47:50,567 - financial_data_collector - ERROR - Exception while fetching company news for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672F331D0>, 'Connection to finnhub.io timed out. (connect timeout=30)'))
+2025-03-08 17:47:50,571 - financial_data_collector - INFO - Fetching company news for MSFT from 2025-03-01 to 2025-03-08
+2025-03-08 17:48:10,372 - financial_data_collector - ERROR - Request timed out while fetching quotes
+2025-03-08 17:48:10,372 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:48:10,797 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:48:10] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-08 17:48:10,906 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:48:10] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-03-08 17:48:10,913 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:48:10] "[36mGET /js/app.js HTTP/1.1[0m" 304 -
+2025-03-08 17:48:10,938 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:48:10] "[36mGET /js/api-client.js HTTP/1.1[0m" 304 -
+2025-03-08 17:48:10,975 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:48:10] "[36mGET /js/ui-components.js HTTP/1.1[0m" 304 -
+2025-03-08 17:48:11,350 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:48:11] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 17:48:11,612 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:48:11] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 17:48:16,738 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:48:16] "OPTIONS /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:48:17,044 - financial_data_collector - INFO - Fetching quotes for AAPL
+2025-03-08 17:49:02,117 - financial_data_collector - ERROR - Exception while fetching company news for MSFT: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=MSFT&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672F4C610>, 'Connection to finnhub.io timed out. (connect timeout=30)'))
+2025-03-08 17:49:02,117 - financial_data_collector - INFO - Fetching company news for GOOGL from 2025-03-01 to 2025-03-08
+2025-03-08 17:49:02,333 - financial_data_collector - ERROR - Exception while fetching FMP articles: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/fmp/articles?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9&limit=50 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672F4E8D0>, 'Connection to financialmodelingprep.com timed out. (connect timeout=30)'))
+2025-03-08 17:49:02,334 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 17:50:16,702 - financial_data_collector - ERROR - Exception while fetching FMP articles: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/fmp/articles?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9&limit=50 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672F29E90>, 'Connection to financialmodelingprep.com timed out. (connect timeout=30)'))
+2025-03-08 17:50:16,702 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 17:50:17,901 - financial_data_collector - ERROR - Exception while fetching company news for MSFT: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=MSFT&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672F3CD90>, 'Connection to finnhub.io timed out. (connect timeout=30)'))
+2025-03-08 17:50:17,903 - financial_data_collector - INFO - Fetching company news for GOOGL from 2025-03-01 to 2025-03-08
+2025-03-08 17:50:23,384 - financial_data_collector - ERROR - Request timed out while fetching quotes
+2025-03-08 17:50:23,384 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:51:29,456 - financial_data_collector - ERROR - Exception while fetching company news for GOOGL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=GOOGL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672FC1B10>, 'Connection to finnhub.io timed out. (connect timeout=30)'))
+2025-03-08 17:51:29,456 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 17:51:29,703 - financial_data_collector - ERROR - Exception while fetching company news for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672F4F250>, 'Connection to finnhub.io timed out. (connect timeout=30)'))
+2025-03-08 17:51:29,704 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 17:52:24,410 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:24] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-08 17:52:24,833 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:24] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-03-08 17:52:25,130 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:25] "[36mGET /js/api-client.js HTTP/1.1[0m" 304 -
+2025-03-08 17:52:25,184 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:25] "[36mGET /js/ui-components.js HTTP/1.1[0m" 304 -
+2025-03-08 17:52:25,422 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:25] "[36mGET /js/app.js HTTP/1.1[0m" 304 -
+2025-03-08 17:52:26,026 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:26] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 17:52:26,774 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:26] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 17:52:29,760 - financial_data_collector - ERROR - Exception while fetching FMP articles: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/fmp/articles?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9&limit=50 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672FD19D0>, 'Connection to financialmodelingprep.com timed out. (connect timeout=30)'))
+2025-03-08 17:52:29,878 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 17:52:35,358 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:35] "OPTIONS /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:52:35,608 - financial_data_collector - INFO - Fetching quotes for AAPL
+2025-03-08 17:52:41,911 - financial_data_collector - ERROR - Exception while fetching company news for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F2B150>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:41,911 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 17:52:44,039 - financial_data_collector - ERROR - Exception while fetching company news for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672F28690>, 'Connection to finnhub.io timed out. (connect timeout=30)'))
+2025-03-08 17:52:44,039 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 17:52:45,188 - financial_data_collector - ERROR - Exception while fetching company news for GOOGL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=GOOGL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672F0EB90>, 'Connection to finnhub.io timed out. (connect timeout=30)'))
+2025-03-08 17:52:45,239 - financial_data_collector - INFO - Fetching company news for AMZN from 2025-03-01 to 2025-03-08
+2025-03-08 17:52:45,344 - financial_data_collector - ERROR - Exception while fetching company news for AMZN: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AMZN&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FC1610>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:45,365 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 17:52:45,429 - financial_data_collector - ERROR - Exception while fetching basic financials for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=AAPL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F29B90>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:45,467 - financial_data_collector - INFO - Fetching basic financials for MSFT
+2025-03-08 17:52:45,512 - financial_data_collector - ERROR - Exception while fetching basic financials for MSFT: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=MSFT&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F4FC50>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:45,516 - financial_data_collector - INFO - Fetching basic financials for GOOGL
+2025-03-08 17:52:45,537 - financial_data_collector - ERROR - Exception while fetching basic financials for GOOGL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=GOOGL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FDFBD0>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:45,546 - financial_data_collector - INFO - Fetching basic financials for AMZN
+2025-03-08 17:52:45,563 - financial_data_collector - ERROR - Exception while fetching basic financials for AMZN: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=AMZN&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FDE990>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:45,566 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 17:52:45,584 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/AAPL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F4CC50>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:45,591 - financial_data_collector - INFO - Fetching historical prices for MSFT
+2025-03-08 17:52:45,615 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/MSFT?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F0D290>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:45,615 - financial_data_collector - INFO - Fetching historical prices for GOOGL
+2025-03-08 17:52:45,635 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/GOOGL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FD1790>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:45,640 - financial_data_collector - INFO - Fetching historical prices for AMZN
+2025-03-08 17:52:45,651 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/AMZN?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FC1B10>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:45,653 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:45] "POST /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:52:47,624 - financial_data_collector - ERROR - Connection error while fetching quotes
+2025-03-08 17:52:47,624 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:52:47,624 - financial_data_collector - ERROR - Exception while fetching FMP articles: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/fmp/articles?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9&limit=50 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F29C10>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:47,624 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 17:52:47,636 - financial_data_collector - ERROR - Exception while fetching company news for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FD1450>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:47,642 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 17:52:47,645 - financial_data_collector - ERROR - Exception while fetching basic financials for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=AAPL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F1B650>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:47,645 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 17:52:47,654 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/AAPL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F0F750>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:47,659 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:47] "POST /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:52:49,404 - financial_data_collector - ERROR - Exception while fetching basic financials for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=AAPL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000018672F1A550>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2025-03-08 17:52:49,404 - financial_data_collector - ERROR - Exception while fetching basic financials for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=AAPL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000018672FD0E50>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2025-03-08 17:52:49,467 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 17:52:49,484 - financial_data_collector - INFO - Fetching basic financials for MSFT
+2025-03-08 17:52:49,602 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/AAPL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F4C310>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:49,676 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:49] "POST /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:52:53,973 - financial_data_collector - ERROR - Exception while fetching basic financials for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=AAPL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F3F250>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:53,973 - financial_data_collector - ERROR - Exception while fetching basic financials for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=AAPL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F29E90>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:53,973 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 17:52:53,973 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 17:52:56,049 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/AAPL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FDD590>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:56,049 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/AAPL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F4E090>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:52:56,173 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:56] "POST /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:52:56,255 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:52:56] "POST /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:53:01,819 - financial_data_collector - ERROR - Exception while fetching basic financials for MSFT: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=MSFT&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FC1990>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:53:01,821 - financial_data_collector - INFO - Fetching basic financials for GOOGL
+2025-03-08 17:53:04,668 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:53:04] "OPTIONS /api/query HTTP/1.1" 200 -
+2025-03-08 17:53:04,935 - __main__ - INFO - Processing query: 'What is the current price of Amazon stock?' for symbols: ['AAPL']
+2025-03-08 17:53:04,935 - financial_data_collector - INFO - Processing question: What is the current price of Amazon stock?
+2025-03-08 17:53:04,935 - financial_data_collector - INFO - Collecting fresh data for symbols: ['AAPL']
+2025-03-08 17:53:04,935 - financial_data_collector - INFO - Fetching quotes for AAPL
+2025-03-08 17:53:08,085 - __main__ - INFO - Processing query: 'How is Apple performing today?' for symbols: ['AAPL']
+2025-03-08 17:53:08,085 - financial_data_collector - INFO - Processing question: How is Apple performing today?
+2025-03-08 17:53:08,085 - financial_data_collector - INFO - Collecting fresh data for symbols: ['AAPL']
+2025-03-08 17:53:08,085 - financial_data_collector - INFO - Fetching quotes for AAPL
+2025-03-08 17:53:22,760 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:53:22] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-08 17:53:22,850 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:53:22] "[36mGET /js/api-client.js HTTP/1.1[0m" 304 -
+2025-03-08 17:53:22,855 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:53:22] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-03-08 17:53:22,872 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:53:22] "[36mGET /js/ui-components.js HTTP/1.1[0m" 304 -
+2025-03-08 17:53:22,888 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:53:22] "[36mGET /js/app.js HTTP/1.1[0m" 304 -
+2025-03-08 17:53:23,030 - financial_data_collector - ERROR - Exception while fetching basic financials for GOOGL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=GOOGL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000018672F4EA10>: Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host'))
+2025-03-08 17:53:23,032 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 17:53:23,033 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/AAPL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FC1D50>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:53:23,033 - financial_data_collector - INFO - Fetching historical prices for MSFT
+2025-03-08 17:53:23,043 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/MSFT?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F33AD0>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:53:23,045 - financial_data_collector - INFO - Fetching historical prices for GOOGL
+2025-03-08 17:53:23,052 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/GOOGL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672ED1250>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:53:23,259 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:53:23] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 17:53:23,531 - financial_data_collector - INFO - Querying AI with context data
+2025-03-08 17:53:23,531 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:53:23] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 17:53:26,025 - financial_data_collector - ERROR - Connection error while fetching quotes
+2025-03-08 17:53:26,025 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:53:26,025 - financial_data_collector - ERROR - Exception while fetching FMP articles: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/fmp/articles?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9&limit=50 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F0E8D0>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:53:26,025 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 17:53:26,044 - financial_data_collector - ERROR - Exception while fetching company news for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F09250>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:53:26,052 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 17:53:26,056 - financial_data_collector - ERROR - Exception while fetching basic financials for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=AAPL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FDC6D0>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:53:26,081 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 17:53:26,088 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/AAPL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FDEAD0>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:53:26,118 - __main__ - INFO - Query processed successfully
+2025-03-08 17:53:26,118 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:53:26] "POST /api/query HTTP/1.1" 200 -
+2025-03-08 17:53:29,216 - financial_data_collector - ERROR - Connection error while fetching quotes
+2025-03-08 17:53:29,216 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:53:29,216 - financial_data_collector - ERROR - Exception while fetching FMP articles: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/fmp/articles?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9&limit=50 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FD1FD0>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:53:29,216 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 17:53:29,229 - financial_data_collector - ERROR - Exception while fetching company news for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F3E710>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:53:29,233 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 17:53:29,241 - financial_data_collector - ERROR - Exception while fetching basic financials for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=AAPL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FD3310>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:53:29,243 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 17:53:29,250 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/AAPL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FD2B90>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:53:29,267 - __main__ - INFO - Query processed successfully
+2025-03-08 17:53:29,267 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:53:29] "POST /api/query HTTP/1.1" 200 -
+2025-03-08 17:54:22,533 - financial_data_collector - ERROR - Error querying Gemini AI: Timeout of 60.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.250.183.234:443: tcp handshaker shutdown
+2025-03-08 17:54:22,549 - __main__ - INFO - Query processed successfully
+2025-03-08 17:54:22,549 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:54:22] "POST /api/query HTTP/1.1" 200 -
+2025-03-08 17:54:28,051 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:54:28] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-08 17:54:28,169 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:54:28] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-03-08 17:54:28,202 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:54:28] "[36mGET /js/api-client.js HTTP/1.1[0m" 304 -
+2025-03-08 17:54:28,245 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:54:28] "[36mGET /js/ui-components.js HTTP/1.1[0m" 304 -
+2025-03-08 17:54:28,255 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:54:28] "[36mGET /js/app.js HTTP/1.1[0m" 304 -
+2025-03-08 17:54:28,613 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:54:28] "GET /api/stocks HTTP/1.1" 200 -
+2025-03-08 17:54:28,891 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:54:28] "GET /api/health HTTP/1.1" 200 -
+2025-03-08 17:54:43,482 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:54:43] "OPTIONS /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:54:43,735 - financial_data_collector - INFO - Fetching quotes for AAPL
+2025-03-08 17:55:15,758 - financial_data_collector - ERROR - Request timed out while fetching quotes
+2025-03-08 17:55:15,758 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:55:15,758 - financial_data_collector - ERROR - Exception while fetching FMP articles: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/fmp/articles?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9&limit=50 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F2AA10>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:55:15,758 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 17:55:15,774 - financial_data_collector - ERROR - Exception while fetching company news for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2025-03-01&to=2025-03-08&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FDD050>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:55:15,777 - financial_data_collector - INFO - Fetching basic financials for AAPL
+2025-03-08 17:55:15,780 - financial_data_collector - ERROR - Exception while fetching basic financials for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/metric?symbol=AAPL&metric=all&token=cucvf71r01qri16oti9gcucvf71r01qri16otia0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672F3E4D0>: Failed to resolve 'finnhub.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:55:15,784 - financial_data_collector - INFO - Fetching historical prices for AAPL
+2025-03-08 17:55:15,793 - financial_data_collector - ERROR - Exception while fetching historical prices: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/historical-price-full/AAPL?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018672FD0C50>: Failed to resolve 'financialmodelingprep.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-08 17:55:15,796 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:55:15] "POST /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:55:31,279 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:55:31] "OPTIONS /api/query HTTP/1.1" 200 -
+2025-03-08 17:55:31,543 - __main__ - INFO - Processing query: 'How is Apple performing today?' for symbols: ['AAPL']
+2025-03-08 17:55:31,543 - financial_data_collector - INFO - Processing question: How is Apple performing today?
+2025-03-08 17:55:31,543 - __main__ - INFO - Query processed successfully
+2025-03-08 17:55:31,543 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:55:31] "POST /api/query HTTP/1.1" 200 -
+2025-03-08 17:55:40,004 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2025 17:55:40] "OPTIONS /api/update-data HTTP/1.1" 200 -
+2025-03-08 17:55:40,271 - financial_data_collector - INFO - Fetching quotes for AAPL
+2025-03-08 17:57:46,698 - financial_data_collector - ERROR - Request timed out while fetching quotes
+2025-03-08 17:57:46,698 - financial_data_collector - INFO - Fetching FMP articles (limit: 50)
+2025-03-08 17:59:52,966 - financial_data_collector - ERROR - Exception while fetching FMP articles: HTTPSConnectionPool(host='financialmodelingprep.com', port=443): Max retries exceeded with url: /api/v3/fmp/articles?apikey=6tWB631QB6x2pcmnl19TgM2hyZeZTOa9&limit=50 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018672F4DE50>, 'Connection to financialmodelingprep.com timed out. (connect timeout=30)'))
+2025-03-08 17:59:52,966 - financial_data_collector - INFO - Fetching company news for AAPL from 2025-03-01 to 2025-03-08
+2025-03-08 18:55:21,765 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 18:55:21,782 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 18:55:21,926 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.95.243.170:5000
+2025-03-08 18:55:21,937 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 18:55:21,937 - werkzeug - INFO -  * Restarting with stat
+2025-03-08 18:55:26,398 - __main__ - INFO - Financial AI Agent initialized successfully
+2025-03-08 18:55:26,414 - __main__ - INFO - Starting Financial Chatbot server on port 5000
+2025-03-08 18:55:26,486 - werkzeug - WARNING -  * Debugger is active!
+2025-03-08 18:55:26,545 - werkzeug - INFO -  * Debugger PIN: 459-199-424
