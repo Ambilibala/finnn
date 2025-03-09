@@ -1,0 +1,2 @@
+symbol,name,price,changesPercentage,change,dayLow,dayHigh,yearHigh,yearLow,marketCap,priceAvg50,priceAvg200,exchange,volume,avgVolume,open,previousClose,eps,pe,earningsAnnouncement,sharesOutstanding,timestamp
+GOOGL,Alphabet Inc.,173.86,0.87612,1.51,170.27,174.97,207.05,136.13,2129742733939,188.5122,175.7695,NASDAQ,27236708,30547225,171.26,172.35,8.03,21.65,2025-04-23T20:00:00.000+0000,12249756896,1741381201

@@ -777,9 +777,9 @@ if __name__ == "__main__":
     import os
 
     # Option 1: Set environment variables directly
-    os.environ['GEMINI_API_KEY'] = 'AIzaSyAWyzXBL1Hh6uULC-jWKAq7OhPf4vhYuSw'
-    os.environ['FMP_API_KEY'] = '6tWB631QB6x2pcmnl19TgM2hyZeZTOa9'
-    os.environ['FINNHUB_API_KEY'] = 'cucvf71r01qri16oti9gcucvf71r01qri16otia0'
+    GEMINI_API_KEY=os.getenv("GEMINI_API_KEY")
+    FMP_API_KEY=os.getenv("FMP_API_KEY") 
+    FINNHUB_API_KEY=os.getenv("FINNHUB_API_KEY") 
 
     # Create the AI agent
     agent = FinancialAIAgent()
